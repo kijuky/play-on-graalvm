@@ -1,0 +1,1672 @@
+[
+  {
+    "name":"[B"}
+,
+  {
+    "name":"[I"}
+,
+  {
+    "name":"[Lakka.actor.LightArrayRevolverScheduler$TaskQueue;"}
+,
+  {
+    "name":"[Lakka.stream.stage.GraphStageLogic;"}
+,
+  {
+    "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"}
+,
+  {
+    "name":"[Lcom.fasterxml.jackson.databind.deser.KeyDeserializers;"}
+,
+  {
+    "name":"[Lcom.fasterxml.jackson.databind.deser.ValueInstantiators;"}
+,
+  {
+    "name":"[Lcom.fasterxml.jackson.databind.ser.Serializers;"}
+,
+  {
+    "name":"[Lcom.fasterxml.jackson.databind.type.TypeModifier;"}
+,
+  {
+    "name":"[Ljava.lang.Class;"}
+,
+  {
+    "name":"[Ljava.lang.String;"}
+,
+  {
+    "name":"[Ljavax.net.ssl.KeyManager;"}
+,
+  {
+    "name":"[Ljavax.net.ssl.TrustManager;"}
+,
+  {
+    "name":"[Lscala.Tuple2;"}
+,
+  {
+    "name":"[[I"}
+,
+  {
+    "name":"akka.actor.ActorCell",
+    "fields":[
+      {"name":"akka$actor$dungeon$Children$$_childrenRefsDoNotCallMeDirectly"},
+      {"name":"akka$actor$dungeon$Children$$_functionRefsDoNotCallMeDirectly"},
+      {"name":"akka$actor$dungeon$Children$$_nextNameDoNotCallMeDirectly"},
+      {"name":"akka$actor$dungeon$Dispatch$$_mailboxDoNotCallMeDirectly"}
+    ]}
+,
+  {
+    "name":"akka.actor.DefaultSupervisorStrategy",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.actor.LightArrayRevolverScheduler",
+    "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config","akka.event.LoggingAdapter","java.util.concurrent.ThreadFactory"] }]}
+,
+  {
+    "name":"akka.actor.LightArrayRevolverScheduler$TaskHolder",
+    "fields":[{"name":"task"}]}
+,
+  {
+    "name":"akka.actor.LocalActorRefProvider",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.String","akka.actor.ActorSystem$Settings","akka.event.EventStream","akka.actor.DynamicAccess"] }]}
+,
+  {
+    "name":"akka.actor.LocalActorRefProvider$Guardian",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.SupervisorStrategy"] }]}
+,
+  {
+    "name":"akka.actor.LocalActorRefProvider$SystemGuardian",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.SupervisorStrategy","akka.actor.ActorRef"] }]}
+,
+  {
+    "name":"akka.actor.Props$EmptyActor",
+    "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.actor.RepointableActorRef",
+    "fields":[
+      {"name":"_cellDoNotCallMeDirectly"},
+      {"name":"_lookupDoNotCallMeDirectly"}
+    ]}
+,
+  {
+    "name":"akka.actor.typed.ActorRef"}
+,
+  {
+    "name":"akka.actor.typed.internal.MiscMessageSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.actor.typed.internal.adapter.ActorRefAdapter"}
+,
+  {
+    "name":"akka.actor.typed.internal.adapter.ActorSystemAdapter$LoadTypedExtensions$",
+    "fields":[{"name":"MODULE$"}]}
+,
+  {
+    "name":"akka.actor.typed.internal.receptionist.DefaultServiceKey"}
+,
+  {
+    "name":"akka.actor.typed.internal.receptionist.ServiceKeySerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.actor.typed.receptionist.Receptionist$",
+    "fields":[{"name":"MODULE$"}]}
+,
+  {
+    "name":"akka.dispatch.AbstractNodeQueue",
+    "fields":[{"name":"_tailDoNotCallMeDirectly"}]}
+,
+  {
+    "name":"akka.dispatch.AbstractNodeQueue$Node",
+    "fields":[{"name":"_nextDoNotCallMeDirectly"}]}
+,
+  {
+    "name":"akka.dispatch.BoundedControlAwareMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.BoundedDequeBasedMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.BoundedMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.ControlAwareMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.DequeBasedMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.Mailbox",
+    "fields":[
+      {"name":"_statusDoNotCallMeDirectly"},
+      {"name":"_systemQueueDoNotCallMeDirectly"}
+    ]}
+,
+  {
+    "name":"akka.dispatch.MessageDispatcher",
+    "fields":[
+      {"name":"_inhabitantsDoNotCallMeDirectly"},
+      {"name":"_shutdownScheduleDoNotCallMeDirectly"}
+    ]}
+,
+  {
+    "name":"akka.dispatch.MultipleConsumerSemantics"}
+,
+  {
+    "name":"akka.dispatch.SingleConsumerOnlyUnboundedMailbox",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]}
+,
+  {
+    "name":"akka.dispatch.UnboundedControlAwareMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.UnboundedDequeBasedMessageQueueSemantics"}
+,
+  {
+    "name":"akka.dispatch.UnboundedMailbox",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]}
+,
+  {
+    "name":"akka.dispatch.UnboundedMessageQueueSemantics"}
+,
+  {
+    "name":"akka.event.EventStreamUnsubscriber",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.event.EventStream","boolean"] }]}
+,
+  {
+    "name":"akka.event.LoggerMailboxType",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","com.typesafe.config.Config"] }]}
+,
+  {
+    "name":"akka.event.LoggerMessageQueueSemantics"}
+,
+  {
+    "name":"akka.event.slf4j.Slf4jLogger",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.event.slf4j.Slf4jLoggingFilter",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorSystem$Settings","akka.event.EventStream"] }]}
+,
+  {
+    "name":"akka.http.impl.engine.client.PoolMasterActor",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.io.SelectionHandler",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.io.SelectionHandlerSettings"] }]}
+,
+  {
+    "name":"akka.io.TcpIncomingConnection",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.io.TcpExt","java.nio.channels.SocketChannel","akka.io.ChannelRegistry","akka.actor.ActorRef","scala.collection.immutable.Iterable","boolean"] }]}
+,
+  {
+    "name":"akka.io.TcpListener",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ActorRef","akka.io.TcpExt","akka.io.ChannelRegistry","akka.actor.ActorRef","akka.io.Tcp$Bind"] }]}
+,
+  {
+    "name":"akka.io.TcpManager",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.io.TcpExt"] }]}
+,
+  {
+    "name":"akka.pattern.PromiseActorRef",
+    "fields":[
+      {"name":"_stateDoNotCallMeDirectly"},
+      {"name":"_watchedByDoNotCallMeDirectly"}
+    ]}
+,
+  {
+    "name":"akka.routing.ConsistentHashingPool",
+    "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]}
+,
+  {
+    "name":"akka.routing.RoundRobinPool",
+    "methods":[{"name":"<init>","parameterTypes":["com.typesafe.config.Config"] }]}
+,
+  {
+    "name":"akka.routing.RoutedActorCell$RouterActorCreator",
+    "queryAllDeclaredConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":["akka.routing.RouterConfig"] }]}
+,
+  {
+    "name":"akka.serialization.BooleanSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.ByteArraySerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.ByteStringSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.DisabledJavaSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.IntSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.LongSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.SerializationExtension$",
+    "fields":[{"name":"MODULE$"}]}
+,
+  {
+    "name":"akka.serialization.StringSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.serialization.jackson.AkkaJacksonModule",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.serialization.jackson.AkkaStreamJacksonModule",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.serialization.jackson.AkkaTypedJacksonModule",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"akka.serialization.jackson.JacksonCborSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem","java.lang.String"] }]}
+,
+  {
+    "name":"akka.serialization.jackson.JacksonJsonSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem","java.lang.String"] }]}
+,
+  {
+    "name":"akka.stream.Graph"}
+,
+  {
+    "name":"akka.stream.SinkRef"}
+,
+  {
+    "name":"akka.stream.SourceRef"}
+,
+  {
+    "name":"akka.stream.SystemMaterializer$",
+    "fields":[{"name":"MODULE$"}]}
+,
+  {
+    "name":"akka.stream.impl.streamref.StreamRefsProtocol"}
+,
+  {
+    "name":"akka.stream.serialization.StreamRefSerializer",
+    "methods":[{"name":"<init>","parameterTypes":["akka.actor.ExtendedActorSystem"] }]}
+,
+  {
+    "name":"akka.util.ByteString$ByteString1"}
+,
+  {
+    "name":"akka.util.ByteString$ByteString1C"}
+,
+  {
+    "name":"akka.util.ByteString$ByteStrings"}
+,
+  {
+    "name":"ch.qos.logback.classic.AsyncAppender",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
+    "queryAllPublicMethods":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.DateConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.LevelConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.LineSeparatorConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.LoggerConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.MDCConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.MessageConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.classic.pattern.color.HighlightingCompositeConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.core.ConsoleAppender",
+    "queryAllPublicMethods":true,
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"setWithJansi","parameterTypes":["boolean"] }
+    ]}
+,
+  {
+    "name":"ch.qos.logback.core.FileAppender",
+    "queryAllPublicMethods":true,
+    "methods":[
+      {"name":"<init>","parameterTypes":[] },
+      {"name":"setFile","parameterTypes":["java.lang.String"] }
+    ]}
+,
+  {
+    "name":"ch.qos.logback.core.OutputStreamAppender",
+    "methods":[{"name":"setEncoder","parameterTypes":["ch.qos.logback.core.encoder.Encoder"] }]}
+,
+  {
+    "name":"ch.qos.logback.core.encoder.LayoutWrappingEncoder",
+    "methods":[
+      {"name":"setCharset","parameterTypes":["java.nio.charset.Charset"] },
+      {"name":"setParent","parameterTypes":["ch.qos.logback.core.spi.ContextAware"] }
+    ]}
+,
+  {
+    "name":"ch.qos.logback.core.pattern.PatternLayoutEncoderBase",
+    "methods":[{"name":"setPattern","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"ch.qos.logback.core.pattern.color.CyanCompositeConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"ch.qos.logback.core.pattern.color.MagentaCompositeConverter",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.fasterxml.jackson.datatype.jdk8.Jdk8Module",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.fasterxml.jackson.datatype.jsr310.JavaTimeModule",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.fasterxml.jackson.module.paramnames.ParameterNamesModule",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.fasterxml.jackson.module.scala.DefaultScalaModule",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.google.common.base.FinalizableReference",
+    "queriedMethods":[{"name":"finalizeReferent","parameterTypes":[] }]}
+,
+  {
+    "name":"com.google.common.base.internal.Finalizer",
+    "methods":[{"name":"startFinalizer","parameterTypes":["java.lang.Class","java.lang.ref.ReferenceQueue","java.lang.ref.PhantomReference"] }]}
+,
+  {
+    "name":"com.google.common.util.concurrent.AbstractFuture",
+    "fields":[
+      {"name":"listeners"},
+      {"name":"value"},
+      {"name":"waiters"}
+    ]}
+,
+  {
+    "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+    "fields":[
+      {"name":"next"},
+      {"name":"thread"}
+    ]}
+,
+  {
+    "name":"com.google.inject.AbstractModule",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"com.google.inject.internal.Annotations",
+    "queriedMethods":[{"name":"determineAnnotationToStringConfig","parameterTypes":[] }]}
+,
+  {
+    "name":"com.google.inject.internal.InjectorShell$RootModule",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"com.google.inject.util.Modules$2",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"com.google.inject.util.Modules$EmptyModule",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"com.google.inject.util.Modules$OverrideModule",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"com.google.inject.util.Providers$GuicifiedProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"com.sun.crypto.provider.HmacCore$HmacSHA256",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.sun.crypto.provider.HmacSHA1",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.sun.org.apache.xerces.internal.jaxp.datatype.DatatypeFactoryImpl",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"com.typesafe.sslconfig.ssl.NoopHostnameVerifier",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"controllers.Assets",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"controllers.Assets$$FastClassByGuice$$17001601",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"controllers.AssetsBuilder",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"controllers.AssetsConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"controllers.AssetsConfigurationProvider$$FastClassByGuice$$75343858",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"controllers.AssetsFinderProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"controllers.AssetsFinderProvider$$FastClassByGuice$$73734676",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"controllers.AssetsMetadataProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"controllers.AssetsMetadataProvider$$FastClassByGuice$$73121456",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"controllers.AssetsModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"controllers.HomeController",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"controllers.HomeController$$FastClassByGuice$$10064076",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"java.io.FilePermission"}
+,
+  {
+    "name":"java.io.Serializable"}
+,
+  {
+    "name":"java.lang.Boolean",
+    "queriedMethods":[{"name":"parseBoolean","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.Byte",
+    "queriedMethods":[{"name":"parseByte","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.ClassLoader$$DefineAccessByGuice$$/0x00000008402a8840",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"java.lang.ClassValue"}
+,
+  {
+    "name":"java.lang.Double",
+    "queriedMethods":[{"name":"parseDouble","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.Float",
+    "queriedMethods":[{"name":"parseFloat","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.Integer",
+    "queriedMethods":[{"name":"parseInt","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.Long",
+    "queriedMethods":[{"name":"parseLong","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.Object",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"java.lang.RuntimePermission"}
+,
+  {
+    "name":"java.lang.Short",
+    "queriedMethods":[{"name":"parseShort","parameterTypes":["java.lang.String"] }]}
+,
+  {
+    "name":"java.lang.String",
+    "fields":[{"name":"value"}]}
+,
+  {
+    "name":"java.lang.Thread",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.ThreadGroup","java.lang.Runnable","java.lang.String","long","boolean"] }]}
+,
+  {
+    "name":"java.lang.invoke.VarHandle",
+    "methods":[{"name":"releaseFence","parameterTypes":[] }]}
+,
+  {
+    "name":"java.net.NetPermission"}
+,
+  {
+    "name":"java.net.SocketPermission"}
+,
+  {
+    "name":"java.net.URLPermission",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.String","java.lang.String"] }]}
+,
+  {
+    "name":"java.security.AlgorithmParametersSpi"}
+,
+  {
+    "name":"java.security.AllPermission"}
+,
+  {
+    "name":"java.security.KeyStoreSpi"}
+,
+  {
+    "name":"java.security.MessageDigestSpi"}
+,
+  {
+    "name":"java.security.SecureRandomParameters"}
+,
+  {
+    "name":"java.security.SecurityPermission"}
+,
+  {
+    "name":"java.util.PropertyPermission"}
+,
+  {
+    "name":"javax.management.ObjectName"}
+,
+  {
+    "name":"javax.security.auth.x500.X500Principal",
+    "fields":[{"name":"thisX500Name"}],
+    "queriedMethods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]}
+,
+  {
+    "name":"play.DefaultApplication",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.DefaultApplication$$FastClassByGuice$$47286416",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.Environment",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.Environment$$FastClassByGuice$$46791350",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.DefaultApplication",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.DefaultApplication$$FastClassByGuice$$45236490",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.OptionalSourceMapperProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.OptionalSourceMapperProvider$$FastClassByGuice$$87384943",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.DefaultFileMimeTypesProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.DefaultFileMimeTypesProvider$$FastClassByGuice$$59140198",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.DefaultHttpErrorHandler",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.DefaultHttpErrorHandler$$FastClassByGuice$$5093620",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.DefaultHttpRequestHandler",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.api.http.EnabledFilters",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.EnabledFilters$$FastClassByGuice$$6405455",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$ActionCompositionConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$ActionCompositionConfigurationProvider$$FastClassByGuice$$30708810",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$CookiesConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$CookiesConfigurationProvider$$FastClassByGuice$$27676961",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$FileMimeTypesConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$FileMimeTypesConfigurationProvider$$FastClassByGuice$$32271148",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$FlashConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$FlashConfigurationProvider$$FastClassByGuice$$29135144",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$HttpConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$HttpConfigurationProvider$$FastClassByGuice$$25595590",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$ParserConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$ParserConfigurationProvider$$FastClassByGuice$$27099588",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$SecretConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$SecretConfigurationProvider$$FastClassByGuice$$32742816",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$SessionConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.HttpConfiguration$SessionConfigurationProvider$$FastClassByGuice$$30316759",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.JavaCompatibleHttpRequestHandler",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.JavaCompatibleHttpRequestHandler$$FastClassByGuice$$8976162",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.JavaHttpErrorHandlerDelegate",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.JavaHttpErrorHandlerDelegate$$FastClassByGuice$$3642306",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.http.JavaHttpFiltersDelegate",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.http.JavaHttpFiltersDelegate$$FastClassByGuice$$5713506",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.i18n.DefaultLangsProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.i18n.DefaultLangsProvider$$FastClassByGuice$$64961390",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.i18n.DefaultMessagesApiProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.i18n.DefaultMessagesApiProvider$$FastClassByGuice$$65077301",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.i18n.I18nModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.api.inject.BindingKey$$anon$1",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.api.inject.BuiltinModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.api.inject.ConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.inject.ConfigProvider$$FastClassByGuice$$25151134",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.inject.DefaultApplicationLifecycle",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.inject.DefaultApplicationLifecycle$$FastClassByGuice$$1078856",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.inject.RoutesProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.inject.RoutesProvider$$FastClassByGuice$$61366283",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.inject.guice.GuiceApplicationLoader",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.api.inject.guice.GuiceInjector",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.inject.guice.GuiceInjector$$FastClassByGuice$$23980151",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.inject.guice.GuiceInjectorWithClassLoaderProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.inject.guice.GuiceInjectorWithClassLoaderProvider$$FastClassByGuice$$88475627",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.inject.guice.GuiceableModuleConversions$$anon$4",
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.api.libs.Files$DefaultTemporaryFileCreator",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.Files$DefaultTemporaryFileCreator$$FastClassByGuice$$38573183",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.Files$DefaultTemporaryFileReaper",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.Files$DefaultTemporaryFileReaper$$FastClassByGuice$$37231393",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.Files$TemporaryFileReaperConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.Files$TemporaryFileReaperConfigurationProvider$$FastClassByGuice$$34590159",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.ActorSystemProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.ActorSystemProvider$$FastClassByGuice$$49589322",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.AkkaSchedulerProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.AkkaSchedulerProvider$$FastClassByGuice$$54447601",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.ClassicActorSystemProviderProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.ClassicActorSystemProviderProvider$$FastClassByGuice$$50439324",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.CoordinatedShutdownProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.CoordinatedShutdownProvider$$FastClassByGuice$$53150350",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.DefaultFutures",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.DefaultFutures$$FastClassByGuice$$44511906",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.ExecutionContextProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.ExecutionContextProvider$$FastClassByGuice$$55541149",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.concurrent.MaterializerProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.concurrent.MaterializerProvider$$FastClassByGuice$$51611178",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.crypto.CSRFTokenSignerProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.crypto.CSRFTokenSignerProvider$$FastClassByGuice$$78596978",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.crypto.CookieSignerProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.libs.crypto.CookieSignerProvider$$FastClassByGuice$$84086457",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.libs.logback.LogbackLoggerConfigurator",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.api.mvc.AbstractController",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.api.mvc.ActionBuilderImpl",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.api.mvc.BodyParsers$Default",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.BodyParsers$Default$$FastClassByGuice$$869603",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.CookiesModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.api.mvc.DefaultActionBuilderImpl",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultActionBuilderImpl$$FastClassByGuice$$39900328",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultControllerComponents",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultControllerComponents$$FastClassByGuice$$41363734",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultCookieHeaderEncoding",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultCookieHeaderEncoding$$FastClassByGuice$$35228907",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultFlashCookieBaker",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultFlashCookieBaker$$FastClassByGuice$$86872981",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultMessagesActionBuilderImpl",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultMessagesActionBuilderImpl$$FastClassByGuice$$42065038",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultMessagesControllerComponents",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultMessagesControllerComponents$$FastClassByGuice$$43029932",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultPlayBodyParsers",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultPlayBodyParsers$$FastClassByGuice$$39456614",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.DefaultSessionCookieBaker",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.DefaultSessionCookieBaker$$FastClassByGuice$$85368822",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.api.mvc.MessagesActionBuilderImpl",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.api.mvc.request.DefaultRequestFactory",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.api.mvc.request.DefaultRequestFactory$$FastClassByGuice$$35848774",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.core.j.DefaultJavaContextComponents",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.core.j.DefaultJavaContextComponents$$FastClassByGuice$$57535734",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.core.j.DefaultJavaHandlerComponents",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.core.j.DefaultJavaHandlerComponents$$FastClassByGuice$$57811243",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.core.j.JavaRouterAdapter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.core.j.JavaRouterAdapter$$FastClassByGuice$$49106118",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.core.routing.GeneratedRouter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.core.server.AkkaHttpServerProvider",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.cors.CORSConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.cors.CORSConfigProvider$$FastClassByGuice$$81714977",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.cors.CORSFilterProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.cors.CORSFilterProvider$$FastClassByGuice$$82135638",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.cors.CORSModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.csp.CSPConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.CSPConfigProvider$$FastClassByGuice$$66388304",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csp.CSPFilter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.CSPFilter$$FastClassByGuice$$16740906",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csp.CSPModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPActionBuilder",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPActionBuilder$$FastClassByGuice$$69665153",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPProcessor",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPProcessor$$FastClassByGuice$$67125427",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPReportActionBuilder",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPReportActionBuilder$$FastClassByGuice$$72036591",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPReportBodyParser",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPReportBodyParser$$FastClassByGuice$$70397912",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPResultProcessor",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csp.DefaultCSPResultProcessor$$FastClassByGuice$$68828258",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csrf.CSRF$CSRFHttpErrorHandler",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csrf.CSRF$CSRFHttpErrorHandler$$FastClassByGuice$$21707377",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csrf.CSRF$JavaCSRFErrorHandlerDelegate",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csrf.CSRF$JavaCSRFErrorHandlerDelegate$$FastClassByGuice$$20219357",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csrf.CSRF$TokenProviderProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csrf.CSRF$TokenProviderProvider$$FastClassByGuice$$80152544",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csrf.CSRFConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csrf.CSRFConfigProvider$$FastClassByGuice$$79642708",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csrf.CSRFFilter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.csrf.CSRFFilter$$FastClassByGuice$$19748087",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.csrf.CSRFModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.gzip.GzipFilter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.gzip.GzipFilter$$FastClassByGuice$$12785408",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.gzip.GzipFilterConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.gzip.GzipFilterConfigProvider$$FastClassByGuice$$63103983",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.gzip.GzipFilterModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.headers.SecurityHeadersConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.headers.SecurityHeadersConfigProvider$$FastClassByGuice$$83247077",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.headers.SecurityHeadersFilter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.headers.SecurityHeadersFilter$$FastClassByGuice$$22189959",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.headers.SecurityHeadersModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.hosts.AllowedHostsConfigProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.hosts.AllowedHostsConfigProvider$$FastClassByGuice$$62830559",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.hosts.AllowedHostsFilter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.hosts.AllowedHostsFilter$$FastClassByGuice$$11920492",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.hosts.AllowedHostsModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.filters.https.RedirectHttpsConfigurationProvider",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.https.RedirectHttpsConfigurationProvider$$FastClassByGuice$$76237778",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.https.RedirectHttpsFilter",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.filters.https.RedirectHttpsFilter$$FastClassByGuice$$18161753",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.filters.https.RedirectHttpsModule",
+    "queryAllPublicConstructors":true,
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"play.http.DefaultActionCreator",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.http.DefaultActionCreator$$FastClassByGuice$$60757760",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.http.DefaultHttpFilters",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true}
+,
+  {
+    "name":"play.http.DefaultHttpRequestHandler",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.http.DefaultHttpRequestHandler$$FastClassByGuice$$7618120",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.i18n.Langs",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.i18n.Langs$$FastClassByGuice$$15648306",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.i18n.MessagesApi",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.i18n.MessagesApi$$FastClassByGuice$$14567328",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.inject.DelegateInjector",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.inject.DelegateInjector$$FastClassByGuice$$90138460",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.libs.concurrent.HttpExecutionContext",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.libs.concurrent.HttpExecutionContext$$FastClassByGuice$$3044134",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.libs.crypto.DefaultCSRFTokenSigner",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.libs.crypto.DefaultCSRFTokenSigner$$FastClassByGuice$$76609270",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"play.mvc.FileMimeTypes",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"play.mvc.FileMimeTypes$$FastClassByGuice$$56155209",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"router.Routes",
+    "allDeclaredFields":true,
+    "queryAllDeclaredMethods":true,
+    "allDeclaredConstructors":true}
+,
+  {
+    "name":"router.Routes$$FastClassByGuice$$11140468",
+    "fields":[{"name":"GUICE$INVOKERS"}]}
+,
+  {
+    "name":"scala.Boolean"}
+,
+  {
+    "name":"scala.Int"}
+,
+  {
+    "name":"scala.Long"}
+,
+  {
+    "name":"sun.misc.Unsafe",
+    "allDeclaredFields":true,
+    "methods":[{"name":"defineAnonymousClass","parameterTypes":["java.lang.Class","byte[]","java.lang.Object[]"] }]}
+,
+  {
+    "name":"sun.security.pkcs12.PKCS12KeyStore",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.provider.JavaKeyStore$JKS",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.provider.NativePRNG",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.provider.SHA",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.provider.SHA2$SHA256",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.provider.X509Factory",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.ssl.KeyManagerFactoryImpl$SunX509",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.ssl.SSLContextImpl$DefaultSSLContext",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.ssl.SSLContextImpl$TLS12Context",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+    "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+  {
+    "name":"sun.security.x509.AuthorityInfoAccessExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.BasicConstraintsExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.CRLDistributionPointsExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.CertificatePoliciesExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.ExtendedKeyUsageExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.IssuerAlternativeNameExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.KeyUsageExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.NetscapeCertTypeExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.PrivateKeyUsageExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.SubjectAlternativeNameExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+,
+  {
+    "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+    "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]}
+
+]
