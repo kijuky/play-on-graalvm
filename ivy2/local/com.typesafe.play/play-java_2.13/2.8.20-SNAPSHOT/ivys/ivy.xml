@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+  <info organisation="com.typesafe.play" module="play-java_2.13" revision="2.8.20-SNAPSHOT" status="integration" publication="20230128142649" e:info.apiURL="https://www.playframework.com/documentation/2.8.x/api/scala/index.html">
+    <description homepage="https://playframework.com">Play-Java</description>
+  </info>
+  <configurations>
+    <conf name="plugin" visibility="public" description=""/>
+    <conf name="pom" visibility="public" description=""/>
+    <conf extends="runtime" name="test" visibility="public" description=""/>
+    <conf name="provided" visibility="public" description=""/>
+    <conf extends="compile,optional,provided" name="compile-internal" visibility="public" description=""/>
+    <conf name="docs" visibility="public" description=""/>
+    <conf name="optional" visibility="public" description=""/>
+    <conf name="compile" visibility="public" description=""/>
+    <conf extends="test,optional,provided" name="test-internal" visibility="public" description=""/>
+    <conf name="scala-tool" visibility="public" description=""/>
+    <conf name="sources" visibility="public" description=""/>
+    <conf extends="compile" name="runtime" visibility="public" description=""/>
+    <conf extends="runtime,optional" name="runtime-internal" visibility="public" description=""/>
+  </configurations>
+  <publications>
+    <artifact name="play-java_2.13" type="pom" ext="pom" conf="pom"/>
+    <artifact e:classifier="sources" name="play-java_2.13" type="src" ext="jar" conf="sources"/>
+    <artifact e:classifier="javadoc" name="play-java_2.13" type="doc" ext="jar" conf="docs"/>
+    <artifact name="play-java_2.13" type="jar" ext="jar" conf="compile"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.scala-lang" name="scala-compiler" rev="2.13.10" conf="scala-tool->default"> </dependency>
+    <dependency org="org.scala-lang" name="scala-compiler" rev="2.13.10" conf="scala-tool->optional(default)"> </dependency>
+    <dependency org="org.scala-lang" name="scala-library" rev="2.13.10" conf="scala-tool->default"> </dependency>
+    <dependency org="org.scala-lang" name="scala-library" rev="2.13.10" conf="scala-tool->optional(default)"> </dependency>
+    <dependency org="com.typesafe.play" name="play_2.13" rev="2.8.20-SNAPSHOT" conf="compile->default(compile)"> </dependency>
+    <dependency org="com.typesafe.play" name="play_2.13" rev="2.8.20-SNAPSHOT" conf="test->test"> </dependency>
+    <dependency org="com.typesafe.play" name="play-test_2.13" rev="2.8.20-SNAPSHOT" conf="test->default(compile)"> </dependency>
+    <dependency org="com.typesafe.play" name="play-specs2_2.13" rev="2.8.20-SNAPSHOT" conf="test->default(compile)"> </dependency>
+    <dependency org="com.typesafe.play" name="play-guice_2.13" rev="2.8.20-SNAPSHOT" conf="test->default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scala-library" rev="2.13.10" conf="compile->default(compile)"> </dependency>
+    <dependency org="org.scala-lang.modules" name="scala-java8-compat_2.13" rev="1.0.2" conf="compile->default(compile)"> </dependency>
+    <dependency org="net.jodah" name="typetools" rev="0.5.0" conf="compile->default(compile)"> </dependency>
+    <dependency org="org.specs2" name="specs2-core_2.13" rev="4.8.3" conf="test->default(compile)"> </dependency>
+    <dependency org="org.specs2" name="specs2-junit_2.13" rev="4.8.3" conf="test->default(compile)"> </dependency>
+    <dependency org="org.specs2" name="specs2-mock_2.13" rev="4.8.3" conf="test->default(compile)"> </dependency>
+    <dependency org="junit" name="junit" rev="4.13.2" conf="test->default(compile)"> </dependency>
+    <dependency org="com.novocode" name="junit-interface" rev="0.11" conf="test->default(compile)"> </dependency>
+    <dependency org="org.easytesting" name="fest-assert" rev="1.4" conf="test->default(compile)"> </dependency>
+    <dependency org="org.mockito" name="mockito-core" rev="3.2.4" conf="test->default(compile)"> </dependency>
+    <dependency org="ch.qos.logback" name="logback-classic" rev="1.2.11" conf="test->default(compile)"> </dependency>
+  </dependencies>
+</ivy-module>

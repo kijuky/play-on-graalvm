@@ -466,23 +466,11 @@
     "queryAllDeclaredMethods":true}
 ,
   {
-    "name":"com.sun.crypto.provider.HmacCore$HmacSHA256",
-    "methods":[{"name":"<init>","parameterTypes":[] }]}
-,
-  {
-    "name":"com.sun.crypto.provider.HmacSHA1",
-    "methods":[{"name":"<init>","parameterTypes":[] }]}
-,
-  {
     "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
     "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
   {
     "name":"com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl",
-    "methods":[{"name":"<init>","parameterTypes":[] }]}
-,
-  {
-    "name":"com.sun.org.apache.xerces.internal.jaxp.datatype.DatatypeFactoryImpl",
     "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
   {
@@ -496,7 +484,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"controllers.Assets$$FastClassByGuice$$17001601",
+    "name":"controllers.Assets$$FastClassByGuice$$2770775",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -511,7 +499,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"controllers.AssetsConfigurationProvider$$FastClassByGuice$$75343858",
+    "name":"controllers.AssetsConfigurationProvider$$FastClassByGuice$$29135144",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -521,7 +509,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"controllers.AssetsFinderProvider$$FastClassByGuice$$73734676",
+    "name":"controllers.AssetsFinderProvider$$FastClassByGuice$$27676961",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -531,7 +519,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"controllers.AssetsMetadataProvider$$FastClassByGuice$$73121456",
+    "name":"controllers.AssetsMetadataProvider$$FastClassByGuice$$27099588",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -546,7 +534,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"controllers.HomeController$$FastClassByGuice$$10064076",
+    "name":"controllers.HomeController$$FastClassByGuice$$17844662",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -606,6 +594,10 @@
     "methods":[{"name":"<init>","parameterTypes":["java.lang.ThreadGroup","java.lang.Runnable","java.lang.String","long","boolean"] }]}
 ,
   {
+    "name":"java.lang.Throwable",
+    "methods":[{"name":"getSuppressed","parameterTypes":[] }]}
+,
+  {
     "name":"java.lang.invoke.VarHandle",
     "methods":[{"name":"releaseFence","parameterTypes":[] }]}
 ,
@@ -655,7 +647,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.DefaultApplication$$FastClassByGuice$$47286416",
+    "name":"play.DefaultApplication$$FastClassByGuice$$66463824",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -665,7 +657,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.Environment$$FastClassByGuice$$46791350",
+    "name":"play.Environment$$FastClassByGuice$$65636045",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -675,7 +667,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.DefaultApplication$$FastClassByGuice$$45236490",
+    "name":"play.api.DefaultApplication$$FastClassByGuice$$64462968",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -685,7 +677,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.OptionalSourceMapperProvider$$FastClassByGuice$$87384943",
+    "name":"play.api.OptionalSourceMapperProvider$$FastClassByGuice$$87785872",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -695,7 +687,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.DefaultFileMimeTypesProvider$$FastClassByGuice$$59140198",
+    "name":"play.api.http.DefaultFileMimeTypesProvider$$FastClassByGuice$$78364336",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -705,7 +697,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.DefaultHttpErrorHandler$$FastClassByGuice$$5093620",
+    "name":"play.api.http.DefaultHttpErrorHandler$$FastClassByGuice$$13056285",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -720,7 +712,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.EnabledFilters$$FastClassByGuice$$6405455",
+    "name":"play.api.http.EnabledFilters$$FastClassByGuice$$14864513",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -730,7 +722,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$ActionCompositionConfigurationProvider$$FastClassByGuice$$30708810",
+    "name":"play.api.http.HttpConfiguration$ActionCompositionConfigurationProvider$$FastClassByGuice$$49916123",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -740,7 +732,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$CookiesConfigurationProvider$$FastClassByGuice$$27676961",
+    "name":"play.api.http.HttpConfiguration$CookiesConfigurationProvider$$FastClassByGuice$$46961791",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -750,7 +742,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$FileMimeTypesConfigurationProvider$$FastClassByGuice$$32271148",
+    "name":"play.api.http.HttpConfiguration$FileMimeTypesConfigurationProvider$$FastClassByGuice$$51004960",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -760,7 +752,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$FlashConfigurationProvider$$FastClassByGuice$$29135144",
+    "name":"play.api.http.HttpConfiguration$FlashConfigurationProvider$$FastClassByGuice$$47264893",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -770,7 +762,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$HttpConfigurationProvider$$FastClassByGuice$$25595590",
+    "name":"play.api.http.HttpConfiguration$HttpConfigurationProvider$$FastClassByGuice$$44073274",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -780,7 +772,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$ParserConfigurationProvider$$FastClassByGuice$$27099588",
+    "name":"play.api.http.HttpConfiguration$ParserConfigurationProvider$$FastClassByGuice$$46094883",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -790,7 +782,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$SecretConfigurationProvider$$FastClassByGuice$$32742816",
+    "name":"play.api.http.HttpConfiguration$SecretConfigurationProvider$$FastClassByGuice$$52039526",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -800,7 +792,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.HttpConfiguration$SessionConfigurationProvider$$FastClassByGuice$$30316759",
+    "name":"play.api.http.HttpConfiguration$SessionConfigurationProvider$$FastClassByGuice$$48651989",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -810,7 +802,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.JavaCompatibleHttpRequestHandler$$FastClassByGuice$$8976162",
+    "name":"play.api.http.JavaCompatibleHttpRequestHandler$$FastClassByGuice$$16793643",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -820,7 +812,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.JavaHttpErrorHandlerDelegate$$FastClassByGuice$$3642306",
+    "name":"play.api.http.JavaHttpErrorHandlerDelegate$$FastClassByGuice$$11735286",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -830,7 +822,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.http.JavaHttpFiltersDelegate$$FastClassByGuice$$5713506",
+    "name":"play.api.http.JavaHttpFiltersDelegate$$FastClassByGuice$$14258380",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -840,7 +832,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.i18n.DefaultLangsProvider$$FastClassByGuice$$64961390",
+    "name":"play.api.i18n.DefaultLangsProvider$$FastClassByGuice$$85188350",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -850,7 +842,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.i18n.DefaultMessagesApiProvider$$FastClassByGuice$$65077301",
+    "name":"play.api.i18n.DefaultMessagesApiProvider$$FastClassByGuice$$86417398",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -875,7 +867,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.inject.ConfigProvider$$FastClassByGuice$$25151134",
+    "name":"play.api.inject.ConfigProvider$$FastClassByGuice$$43522849",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -885,7 +877,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.inject.DefaultApplicationLifecycle$$FastClassByGuice$$1078856",
+    "name":"play.api.inject.DefaultApplicationLifecycle$$FastClassByGuice$$10320081",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -895,7 +887,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.inject.RoutesProvider$$FastClassByGuice$$61366283",
+    "name":"play.api.inject.RoutesProvider$$FastClassByGuice$$80694130",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -909,7 +901,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.inject.guice.GuiceInjector$$FastClassByGuice$$23980151",
+    "name":"play.api.inject.guice.GuiceInjector$$FastClassByGuice$$23238535",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -919,7 +911,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.inject.guice.GuiceInjectorWithClassLoaderProvider$$FastClassByGuice$$88475627",
+    "name":"play.api.inject.guice.GuiceInjectorWithClassLoaderProvider$$FastClassByGuice$$88433519",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -933,7 +925,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.Files$DefaultTemporaryFileCreator$$FastClassByGuice$$38573183",
+    "name":"play.api.libs.Files$DefaultTemporaryFileCreator$$FastClassByGuice$$56876858",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -943,7 +935,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.Files$DefaultTemporaryFileReaper$$FastClassByGuice$$37231393",
+    "name":"play.api.libs.Files$DefaultTemporaryFileReaper$$FastClassByGuice$$55791313",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -953,7 +945,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.Files$TemporaryFileReaperConfigurationProvider$$FastClassByGuice$$34590159",
+    "name":"play.api.libs.Files$TemporaryFileReaperConfigurationProvider$$FastClassByGuice$$52829799",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -963,7 +955,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.ActorSystemProvider$$FastClassByGuice$$49589322",
+    "name":"play.api.libs.concurrent.ActorSystemProvider$$FastClassByGuice$$68841132",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -973,7 +965,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.AkkaSchedulerProvider$$FastClassByGuice$$54447601",
+    "name":"play.api.libs.concurrent.AkkaSchedulerProvider$$FastClassByGuice$$72478768",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -983,7 +975,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.ClassicActorSystemProviderProvider$$FastClassByGuice$$50439324",
+    "name":"play.api.libs.concurrent.ClassicActorSystemProviderProvider$$FastClassByGuice$$70219384",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -993,7 +985,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.CoordinatedShutdownProvider$$FastClassByGuice$$53150350",
+    "name":"play.api.libs.concurrent.CoordinatedShutdownProvider$$FastClassByGuice$$72175125",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1003,7 +995,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.DefaultFutures$$FastClassByGuice$$44511906",
+    "name":"play.api.libs.concurrent.DefaultFutures$$FastClassByGuice$$63565833",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1013,7 +1005,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.ExecutionContextProvider$$FastClassByGuice$$55541149",
+    "name":"play.api.libs.concurrent.ExecutionContextProvider$$FastClassByGuice$$73421330",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1023,7 +1015,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.concurrent.MaterializerProvider$$FastClassByGuice$$51611178",
+    "name":"play.api.libs.concurrent.MaterializerProvider$$FastClassByGuice$$70666425",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1033,7 +1025,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.crypto.CSRFTokenSignerProvider$$FastClassByGuice$$78596978",
+    "name":"play.api.libs.crypto.CSRFTokenSignerProvider$$FastClassByGuice$$37945926",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1043,7 +1035,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.libs.crypto.CookieSignerProvider$$FastClassByGuice$$84086457",
+    "name":"play.api.libs.crypto.CookieSignerProvider$$FastClassByGuice$$81739860",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1067,7 +1059,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.BodyParsers$Default$$FastClassByGuice$$869603",
+    "name":"play.api.mvc.BodyParsers$Default$$FastClassByGuice$$8446976",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1082,7 +1074,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultActionBuilderImpl$$FastClassByGuice$$39900328",
+    "name":"play.api.mvc.DefaultActionBuilderImpl$$FastClassByGuice$$59027878",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1092,7 +1084,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultControllerComponents$$FastClassByGuice$$41363734",
+    "name":"play.api.mvc.DefaultControllerComponents$$FastClassByGuice$$59859687",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1102,7 +1094,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultCookieHeaderEncoding$$FastClassByGuice$$35228907",
+    "name":"play.api.mvc.DefaultCookieHeaderEncoding$$FastClassByGuice$$54131393",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1112,7 +1104,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultFlashCookieBaker$$FastClassByGuice$$86872981",
+    "name":"play.api.mvc.DefaultFlashCookieBaker$$FastClassByGuice$$82971358",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1122,7 +1114,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultMessagesActionBuilderImpl$$FastClassByGuice$$42065038",
+    "name":"play.api.mvc.DefaultMessagesActionBuilderImpl$$FastClassByGuice$$61553175",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1132,7 +1124,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultMessagesControllerComponents$$FastClassByGuice$$43029932",
+    "name":"play.api.mvc.DefaultMessagesControllerComponents$$FastClassByGuice$$62728987",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1142,7 +1134,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultPlayBodyParsers$$FastClassByGuice$$39456614",
+    "name":"play.api.mvc.DefaultPlayBodyParsers$$FastClassByGuice$$58687679",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1152,7 +1144,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.DefaultSessionCookieBaker$$FastClassByGuice$$85368822",
+    "name":"play.api.mvc.DefaultSessionCookieBaker$$FastClassByGuice$$82632977",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1167,7 +1159,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.api.mvc.request.DefaultRequestFactory$$FastClassByGuice$$35848774",
+    "name":"play.api.mvc.request.DefaultRequestFactory$$FastClassByGuice$$54604512",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1177,7 +1169,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.core.j.DefaultJavaContextComponents$$FastClassByGuice$$57535734",
+    "name":"play.core.j.DefaultJavaContextComponents$$FastClassByGuice$$75744677",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1187,7 +1179,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.core.j.DefaultJavaHandlerComponents$$FastClassByGuice$$57811243",
+    "name":"play.core.j.DefaultJavaHandlerComponents$$FastClassByGuice$$77279471",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1197,7 +1189,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.core.j.JavaRouterAdapter$$FastClassByGuice$$49106118",
+    "name":"play.core.j.JavaRouterAdapter$$FastClassByGuice$$67395771",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1216,7 +1208,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.cors.CORSConfigProvider$$FastClassByGuice$$81714977",
+    "name":"play.filters.cors.CORSConfigProvider$$FastClassByGuice$$41365903",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1226,7 +1218,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.cors.CORSFilterProvider$$FastClassByGuice$$82135638",
+    "name":"play.filters.cors.CORSFilterProvider$$FastClassByGuice$$42546251",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1241,7 +1233,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.CSPConfigProvider$$FastClassByGuice$$66388304",
+    "name":"play.filters.csp.CSPConfigProvider$$FastClassByGuice$$30708810",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1251,7 +1243,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.CSPFilter$$FastClassByGuice$$16740906",
+    "name":"play.filters.csp.CSPFilter$$FastClassByGuice$$4936222",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1266,7 +1258,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.DefaultCSPActionBuilder$$FastClassByGuice$$69665153",
+    "name":"play.filters.csp.DefaultCSPActionBuilder$$FastClassByGuice$$34548166",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1276,7 +1268,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.DefaultCSPProcessor$$FastClassByGuice$$67125427",
+    "name":"play.filters.csp.DefaultCSPProcessor$$FastClassByGuice$$32283880",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1286,7 +1278,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.DefaultCSPReportActionBuilder$$FastClassByGuice$$72036591",
+    "name":"play.filters.csp.DefaultCSPReportActionBuilder$$FastClassByGuice$$36170034",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1296,7 +1288,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.DefaultCSPReportBodyParser$$FastClassByGuice$$70397912",
+    "name":"play.filters.csp.DefaultCSPReportBodyParser$$FastClassByGuice$$35636602",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1306,7 +1298,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csp.DefaultCSPResultProcessor$$FastClassByGuice$$68828258",
+    "name":"play.filters.csp.DefaultCSPResultProcessor$$FastClassByGuice$$33531757",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1316,7 +1308,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csrf.CSRF$CSRFHttpErrorHandler$$FastClassByGuice$$21707377",
+    "name":"play.filters.csrf.CSRF$CSRFHttpErrorHandler$$FastClassByGuice$$7548983",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1326,7 +1318,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csrf.CSRF$JavaCSRFErrorHandlerDelegate$$FastClassByGuice$$20219357",
+    "name":"play.filters.csrf.CSRF$JavaCSRFErrorHandlerDelegate$$FastClassByGuice$$6888109",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1336,7 +1328,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csrf.CSRF$TokenProviderProvider$$FastClassByGuice$$80152544",
+    "name":"play.filters.csrf.CSRF$TokenProviderProvider$$FastClassByGuice$$40497069",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1346,7 +1338,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csrf.CSRFConfigProvider$$FastClassByGuice$$79642708",
+    "name":"play.filters.csrf.CSRFConfigProvider$$FastClassByGuice$$39539239",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1356,7 +1348,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.csrf.CSRFFilter$$FastClassByGuice$$19748087",
+    "name":"play.filters.csrf.CSRFFilter$$FastClassByGuice$$5721100",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1371,7 +1363,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.gzip.GzipFilter$$FastClassByGuice$$12785408",
+    "name":"play.filters.gzip.GzipFilter$$FastClassByGuice$$20796663",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1381,7 +1373,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.gzip.GzipFilterConfigProvider$$FastClassByGuice$$63103983",
+    "name":"play.filters.gzip.GzipFilterConfigProvider$$FastClassByGuice$$83940500",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1396,7 +1388,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.headers.SecurityHeadersConfigProvider$$FastClassByGuice$$83247077",
+    "name":"play.filters.headers.SecurityHeadersConfigProvider$$FastClassByGuice$$26199710",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1406,7 +1398,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.headers.SecurityHeadersFilter$$FastClassByGuice$$22189959",
+    "name":"play.filters.headers.SecurityHeadersFilter$$FastClassByGuice$$1583451",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1421,7 +1413,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.hosts.AllowedHostsConfigProvider$$FastClassByGuice$$62830559",
+    "name":"play.filters.hosts.AllowedHostsConfigProvider$$FastClassByGuice$$30316759",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1431,7 +1423,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.hosts.AllowedHostsFilter$$FastClassByGuice$$11920492",
+    "name":"play.filters.hosts.AllowedHostsFilter$$FastClassByGuice$$4073892",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1446,7 +1438,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.https.RedirectHttpsConfigurationProvider$$FastClassByGuice$$76237778",
+    "name":"play.filters.https.RedirectHttpsConfigurationProvider$$FastClassByGuice$$25028727",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1456,7 +1448,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.filters.https.RedirectHttpsFilter$$FastClassByGuice$$18161753",
+    "name":"play.filters.https.RedirectHttpsFilter$$FastClassByGuice$$869603",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1471,7 +1463,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.http.DefaultActionCreator$$FastClassByGuice$$60757760",
+    "name":"play.http.DefaultActionCreator$$FastClassByGuice$$78706422",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1486,7 +1478,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.http.DefaultHttpRequestHandler$$FastClassByGuice$$7618120",
+    "name":"play.http.DefaultHttpRequestHandler$$FastClassByGuice$$15915307",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1496,7 +1488,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.i18n.Langs$$FastClassByGuice$$15648306",
+    "name":"play.i18n.Langs$$FastClassByGuice$$22755953",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1506,7 +1498,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.i18n.MessagesApi$$FastClassByGuice$$14567328",
+    "name":"play.i18n.MessagesApi$$FastClassByGuice$$21267933",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1516,7 +1508,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.inject.DelegateInjector$$FastClassByGuice$$90138460",
+    "name":"play.inject.DelegateInjector$$FastClassByGuice$$89524203",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1526,7 +1518,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.libs.concurrent.HttpExecutionContext$$FastClassByGuice$$3044134",
+    "name":"play.libs.concurrent.HttpExecutionContext$$FastClassByGuice$$10844039",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1536,7 +1528,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.libs.crypto.DefaultCSRFTokenSigner$$FastClassByGuice$$76609270",
+    "name":"play.libs.crypto.DefaultCSRFTokenSigner$$FastClassByGuice$$37477707",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1546,7 +1538,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"play.mvc.FileMimeTypes$$FastClassByGuice$$56155209",
+    "name":"play.mvc.FileMimeTypes$$FastClassByGuice$$75226613",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1556,7 +1548,7 @@
     "allDeclaredConstructors":true}
 ,
   {
-    "name":"router.Routes$$FastClassByGuice$$11140468",
+    "name":"router.Routes$$FastClassByGuice$$19264960",
     "fields":[{"name":"GUICE$INVOKERS"}]}
 ,
   {
@@ -1567,6 +1559,10 @@
 ,
   {
     "name":"scala.Long"}
+,
+  {
+    "name":"scala.Symbol",
+    "methods":[{"name":"apply","parameterTypes":["java.lang.String"] }]}
 ,
   {
     "name":"sun.misc.Unsafe",
@@ -1591,10 +1587,6 @@
 ,
   {
     "name":"sun.security.provider.SHA",
-    "methods":[{"name":"<init>","parameterTypes":[] }]}
-,
-  {
-    "name":"sun.security.provider.SHA2$SHA256",
     "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
   {
