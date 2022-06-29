@@ -1,3 +1,5 @@
+resolvers += Resolver.file("project-local", file("ivy2/local"))(Resolver.ivyStylePatterns)
+
 lazy val root = (project in file("."))
   .enablePlugins(PlayScala, GraalVMNativeImagePlugin)
   .settings(
