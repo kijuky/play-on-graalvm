@@ -22,7 +22,7 @@ SBT_OPTS=-Dsbt.ivy.home=../ivy2 sbt publishLocal
 project/plugins.sbt を修正します。
 
 ```sbt
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.8.15+X-XXXXXXXX-SNAPSHOT") // need update
+addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.8.16+X-XXXXXXXX-SNAPSHOT") // need update
 ```
 
 ### GraalVMのビルド
