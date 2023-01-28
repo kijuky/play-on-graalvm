@@ -5,14 +5,10 @@ import play.api.mvc.Action
 import play.api.mvc.AnyContent
 import play.api.mvc.ControllerComponents
 
-import javax.inject.Inject
-import javax.inject.Singleton
-
 /** This controller creates an `Action` to handle HTTP requests to the
   * application's home page.
   */
-@Singleton
-class HomeController @Inject() (val cc: ControllerComponents)
+class HomeController (val cc: ControllerComponents)
     extends AbstractController(cc) {
 
   /** Create an Action to render an HTML page.

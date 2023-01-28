@@ -15,8 +15,9 @@ lazy val root = (project in file("."))
   .settings(
     // dependencies
     libraryDependencies ++= Seq(
-      guice,
-      "com.google.inject.extensions" % "guice-assistedinject" % "5.1.0"
+      "com.github.vmencik" %% "graal-akka-stream" % "0.5.0",
+      "com.github.vmencik" %% "graal-akka-http" % "0.5.0",
+      "com.github.vmencik" %% "graal-akka-slf4j" % "0.5.0"
     ),
     libraryDependencies ++= Seq(
       "org.scalatestplus.play" %% "scalatestplus-play" % "5.1.0"
