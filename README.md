@@ -2,28 +2,10 @@
 
 ## requirements
 
-- Java11
+- Java17
 - docker
 
 ## build
-
-### resourceスキームを修正したPlayの作成
-
-PlayFrameworkにresourceスキームの修正を入れる必要があります。このリポジトリにはその修正が入ったPlayをivy/localに配置していますので、下記の作業は不要です。
-
-この章ではivy/localに配置したPlayの作成方法について説明します。
-
-```shell
-git submodule update
-cd playframework
-SBT_OPTS=-Dsbt.ivy.home=../ivy2 sbt publishLocal 
-```
-
-project/plugins.sbt を修正します。
-
-```sbt
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.8.16+X-XXXXXXXX-SNAPSHOT") // need update
-```
 
 ### GraalVMのビルド
 
