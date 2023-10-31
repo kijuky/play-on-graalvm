@@ -2,41 +2,42 @@
 
 ## requirements
 
-- Java11
-- docker
+- docker or asdf
 
-## build
+## Docker を使う場合
 
-### resourceスキームを修正したPlayの作成
+ベースイメージは[scala-sbt](https://hub.docker.com/r/sbtscala/scala-sbt/tags?page=1&name=graalvm)を使います。
 
-PlayFrameworkにresourceスキームの修正を入れる必要があります。このリポジトリにはその修正が入ったPlayをivy/localに配置していますので、下記の作業は不要です。
-
-この章ではivy/localに配置したPlayの作成方法について説明します。
-
-```shell
-git submodule update
-cd playframework
-SBT_OPTS=-Dsbt.ivy.home=../ivy2 sbt publishLocal 
-```
-
-project/plugins.sbt を修正します。
-
-```sbt
-addSbtPlugin("com.typesafe.play" % "sbt-plugin" % "2.8.16+X-XXXXXXXX-SNAPSHOT") // need update
-```
-
-### GraalVMのビルド
-
-GraalVMのビルドはDockerイメージで行います。
+### build
 
 ```shell
 docker build .
 ```
 
-## run
+### run
 
 ```shell
 docker run -p 9000:9000 -it --rm <<image sha256>>
+```
+
+```shell
+open http://localhost:9000/
+```
+
+## ローカル(mac)で実行する場合
+
+asdfでGraalVM環境を設定しているものとします。
+
+### build
+
+```shell
+sbt GraalVMNativeImage/packageBin
+```
+
+### run
+
+```shell
+target/graalvm-native-image/play-scala-seed
 ```
 
 ```shell

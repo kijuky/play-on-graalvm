@@ -5,6 +5,12 @@
         "pattern":"\\QMETA-INF/MANIFEST.MF\\E"
       },
       {
+        "pattern":"\\QMETA-INF/services/io.jsonwebtoken.CompressionCodec\\E"
+      },
+      {
+        "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+      },
+      {
         "pattern":"\\Qakka-http-version.conf\\E"
       },
       {
@@ -26,19 +32,7 @@
         "pattern":"\\Qmessages\\E"
       },
       {
-        "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
-      },
-      {
         "pattern":"\\Qplay/reference-overrides.conf\\E"
-      },
-      {
-        "pattern":"\\Qpublic/images/favicon.png\\E"
-      },
-      {
-        "pattern":"\\Qpublic/javascripts/main.js\\E"
-      },
-      {
-        "pattern":"\\Qpublic/stylesheets/main.css\\E"
       },
       {
         "pattern":"\\Qreference.conf\\E"
