@@ -12,4 +12,4 @@ FROM almalinux:latest as app
 WORKDIR /app
 COPY --from=build /app/target/graalvm-native-image/* .
 
-ENTRYPOINT ["./play-on-graalvm"]
+ENTRYPOINT ["./play-scala-seed"]

@@ -2,23 +2,42 @@
 
 ## requirements
 
-- Java17
-- docker
+- docker or asdf
 
-## build
+## Docker を使う場合
 
-### GraalVMのビルド
+ベースイメージは[scala-sbt](https://hub.docker.com/r/sbtscala/scala-sbt/tags?page=1&name=graalvm)を使います。
 
-GraalVMのビルドはDockerイメージで行います。
+### build
 
 ```shell
 docker build .
 ```
 
-## run
+### run
 
 ```shell
 docker run -p 9000:9000 -it --rm <<image sha256>>
+```
+
+```shell
+open http://localhost:9000/
+```
+
+## ローカル(mac)で実行する場合
+
+asdfでGraalVM環境を設定しているものとします。
+
+### build
+
+```shell
+sbt GraalVMNativeImage/packageBin
+```
+
+### run
+
+```shell
+target/graalvm-native-image/play-scala-seed
 ```
 
 ```shell

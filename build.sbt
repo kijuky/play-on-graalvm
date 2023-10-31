@@ -4,18 +4,15 @@ organization := "com.example"
 version := "1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
+  // graalvm
   .enablePlugins(GraalVMNativeImagePlugin)
   .settings(
-    // graalvm
     PlayKeys.externalizeResources := false,
     graalVMNativeImageOptions ++= Seq(
       "-J-Xmx10G",
-      "--allow-incomplete-classpath",
       "--enable-http",
       "--install-exit-handlers",
-      //"--link-at-build-time",
       "--no-fallback",
-      "-H:+UnlockExperimentalVMOptions",
       s"-H:ResourceConfigurationFiles=${sys.props("user.dir")}/resource-config.json",
       s"-H:ReflectionConfigurationFiles=${sys.props("user.dir")}/reflect-config.json"
     )
