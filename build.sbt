@@ -13,8 +13,8 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
       "--enable-http",
       "--install-exit-handlers",
       "--no-fallback",
-      s"-H:ResourceConfigurationFiles=${sys.props("user.dir")}/resource-config.json",
-      s"-H:ReflectionConfigurationFiles=${sys.props("user.dir")}/reflect-config.json"
+      s"-H:ResourceConfigurationFiles=${baseDirectory.value}/resource-config.json",
+      s"-H:ReflectionConfigurationFiles=${baseDirectory.value}/reflect-config.json"
     )
   )
 
